@@ -1,0 +1,164 @@
+body {
+  text-align: center;
+  background-color: #FFE6E6;
+  margin: 0;
+}
+p {
+  color: #2a2d2e;
+  font-size: 1.25rem;
+  font-family: 'Itim', cursive;
+}
+a{
+  text-decoration: none;
+  font-family: 'Itim', cursive;
+  color: #2a2d2e;
+}
+
+hr{
+  border-style: dotted;
+  height: 0;
+  border-bottom: 0;
+  border-width: 10px;
+  width: 3%;
+  border-color: #d1d1dd;
+}
+h1 {
+  color: #8D8DAA;
+  font-size: 5.625rem;
+  font-family: 'Niconne', cursive;
+  margin-bottom: 30px;
+  margin-top: 130px;
+}
+
+h2 {
+  color: #8D8DAA;
+  font-size: 5.625rem;
+  font-family: 'Niconne', cursive;
+  margin: 50px 0;
+}
+
+h3{
+  color: #8D8DAA;
+  font-family: 'Dokdo', cursive;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+h4{
+  font-size: 4rem;
+  font-family: 'Dokdo', cursive;
+  color: #8D8DAA;
+  float: left;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  height: 100px;
+  background-color: #DAEAF1;
+}
+.icon{
+  height:  100px;
+  float: left;
+}
+.intro{
+  position: relative;
+  top: 60px
+}
+.tree {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 150px;
+}
+.topcontainer{
+  padding-bottom: 137px;
+}
+.bellowtopcontainer {
+  border-style: solid;
+  width: 99.3%;
+  border-width: 5px;
+  border-color: #8D8DAA;
+}
+.midlecontainer{
+  line-height: 2;
+}
+.skill{
+  width: 50%;
+  text-align: left;
+  margin: 150px auto;
+}
+.skill1{
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+
+.skill2{
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.skill3{
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+.contactme{
+  margin: 0 auto;
+}
+.outtro{
+  margin: 0 auto 50px;
+}
+.message{
+  margin: 50px auto;
+}
+
+.bottombar{
+  background-color: #C6DCE4;
+  padding-top: 20px;
+}
+.socialmedia{
+  margin: 30px 30px 0;
+}
+.socialmedia:hover{
+  color: #8D8DAA;
+}
+.name{
+  margin: 20px auto 0;
+  font-family: 'Dokdo', cursive;
+  color: #8D8DAA;
+}
+.btn {
+  background: #F2D1D1;
+  background-image: -webkit-linear-gradient(top, #F2D1D1, #C6DCE4);
+  background-image: -moz-linear-gradient(top, #F2D1D1, #C6DCE4);
+  background-image: -ms-linear-gradient(top, #F2D1D1, #C6DCE4);
+  background-image: -o-linear-gradient(top, #F2D1D1, #C6DCE4);
+  background-image: linear-gradient(to bottom, #F2D1D1, #C6DCE4);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Itim', cursive;
+  color: #8D8DAA;
+  font-size: 22px;
+  padding: 8px 20px 8px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #C6DCE4;
+  background-image: -webkit-linear-gradient(top, #C6DCE4, #F2D1D1);
+  background-image: -moz-linear-gradient(top, #C6DCE4, #F2D1D1);
+  background-image: -ms-linear-gradient(top, #C6DCE4, #F2D1D1);
+  background-image: -o-linear-gradient(top, #C6DCE4, #F2D1D1);
+  background-image: linear-gradient(to bottom, #C6DCE4, #F2D1D1);
+  text-decoration: none;
+}
+#firstskill{
+  margin-top: 50px;
+}
